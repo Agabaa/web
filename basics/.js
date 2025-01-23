@@ -75,3 +75,7 @@ if(code == code1){
 }else{
     console.log('not equal')
 }
+
+let obj ={
+    fname:"james"
+}
