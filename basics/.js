@@ -79,3 +79,34 @@ if(code == code1){
 let obj ={
     fname:"james"
 }
+//if statments
+let age=20
+if (age>18){
+    console.log('you are an adult')
+}else{
+    console.log('you are a child')
+}
+/**loops
+
+for(initialization,condition,increment){
+    results
+
+    while loop
+    initialization
+    while(condition){
+    results
+    increment
+    }
+*/
+let i=1
+/**while(i<100){
+    console.log(i)
+    i++
+}*/
+for(let i=1;i<100;i++){
+    console.log(i)
+}
+
+for(i in fruits){
+    console.log(fruits[i])
+}
